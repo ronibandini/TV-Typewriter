@@ -1,3 +1,5 @@
+![TVTypeSmall](https://github.com/user-attachments/assets/1f090042-dc48-46a3-9650-d39a5a38c980)
+
 # TV-Typewriter
 
 Homage to the legendary **TV Typewriter (1973)** by Don Lancaster, recreated with an **Arduino Nano** and a small **analog keypad**.
