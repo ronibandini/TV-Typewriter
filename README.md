@@ -2,7 +2,7 @@
 
 # TV-Typewriter
 
-Homage to the legendary **TV Typewriter (1973)** by Don Lancaster, recreated with an **Arduino Nano** and a small **analog keypad**.
+Homage to the legendary **TV Typewriter (1973)** by Don Lancaster, recreated with an **Arduino Nano** and **3 adkeys**.
 
 This project generates **composite video output** directly from the Arduino and lets you type characters that appear on a television screen, similar to the original homebrew video terminal.
 
@@ -16,7 +16,6 @@ This project generates **composite video output** directly from the Arduino and 
 https://www.dfrobot.com/product-67.html?tracking=hOuIhw4fDaJRTdy4abz04npbQC78dqxBkqVt7XMFYxEXj2s0ukWgm71wbut0ewUP
 
 - **Analog Keypad**  
-(use **3 keypads** for the complete alphabet)  
 https://www.dfrobot.com/product-2267.html?tracking=hOuIhw4fDaJRTdy4abz04npbQC78dqxBkqVt7XMFYxEXj2s0ukWgm71wbut0ewUP
 
 - 1 × **330 Ω resistor**  
@@ -42,6 +41,7 @@ Build the **TVOut cable** according to the following diagram.
 
 The RCA connector goes to the **composite VIDEO IN** of the TV.
 
+Connect keypads Out to A3, A4 and A5
 ---
 
 # Software
@@ -66,7 +66,7 @@ Arduino/libraries/
 
 ## 2. Upload the code
 
-Upload the provided **.ino sketch** to the Arduino Nano.
+Upload the provided **tv3.ino sketch** to the Arduino Nano.
 
 ---
 
@@ -80,8 +80,7 @@ After reset, characters typed on the keypad will appear on the screen.
 
 # Notes
 
-- One keypad provides **10 keys**.
-- To cover the full alphabet you can connect **three keypads** and map additional characters in the sketch.
+- The keyboard is not qwerty due to keypad configuration
 - The video signal is **composite NTSC**, generated directly by the Arduino using the **TVOut** library.
 
 ---
