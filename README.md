@@ -78,6 +78,16 @@ After reset, characters typed on the keypad will appear on the screen.
 
 ---
 
+## 4. 3d Enclosure  
+
+3d Enclosure
+
+[3d parts.](https://cults3d.com/en/3d-model/gadget/tv-type)
+
+---
+
+
+
 # Notes
 
 - The keyboard is not qwerty due to keypad configuration
