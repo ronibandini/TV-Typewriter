@@ -6,6 +6,8 @@ Homage to the legendary **TV Typewriter (1973)** by Don Lancaster, recreated wit
 
 This project generates **composite video output** directly from the Arduino and lets you type characters that appear on a television screen, similar to the original homebrew video terminal.
 
+Complete tutorial https://projecthub.arduino.cc/ronibandini/recreating-the-1973-tv-typewriter-with-arduino-c3371f
+
 ---
 
 # Hardware
